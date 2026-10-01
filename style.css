@@ -1,0 +1,8 @@
+:root{--bg:#fffaf0;--fg:#2b2118;--muted:#6b5b4b;--accent:#c0562b;--card:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#1d1813;--fg:#f3ebe1;--muted:#b8a896;--accent:#f08a5d;--card:#28211a}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:760px;margin:0 auto;padding:24px 16px 48px}
+h1{margin:.2em 0}h2{margin-top:1.8em;color:var(--accent)}
+a{color:var(--accent)}.muted{color:var(--muted);font-size:14px}
+.card{background:var(--card);border-radius:12px;padding:12px 18px;box-shadow:0 1px 4px #0002}
+nav a{margin-right:16px}
